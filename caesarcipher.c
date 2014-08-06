@@ -39,7 +39,7 @@ int main(int argc, string argv[])
     while (!keyValid);
     
     // read user input
-    printf("Enter message you want to encrypt: \n");
+    printf("Enter message you want to encrypt:\n");
     text = GetString();
     ilen = strlen(text);
 
